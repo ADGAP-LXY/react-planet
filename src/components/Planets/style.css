@@ -1,0 +1,19 @@
+.all-planets {
+    display: flex;
+    flex-direction: row;  
+    position: relative;
+    top: 40%;
+}
+
+.planet-info {
+    position: relative;
+}
+
+.planet-text {
+    position: absolute;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+}

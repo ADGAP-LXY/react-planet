@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Europa",
+        "missionStatus": {
+            "current": 0,
+            "past": 1
+        },
+        "image": "/images/Europa.webp"
+    },
+    {
+        "name": "Earth",
+        "missionStatus": {
+            "current": 22,
+            "past": 30
+        },
+        "image": "/images/Earth.webp"
+    },
+    {
+        "name": "Mars",
+        "missionStatus": {
+            "current": 6,
+            "past": 17
+        },
+        "image": "/images/Mars.webp"
+    },
+    {
+        "name": "Stars and Galaxies",
+        "missionStatus": {
+            "current": 4,
+            "past": 7
+        },
+        "image": "/images/Stars and Galaxies.webp"
+    },
+    {
+        "name": "Saturn",
+        "missionStatus": {
+            "current": 0,
+            "past": 1
+        },
+        "image": "/images/Saturn.webp"
+    },
+    {
+        "name": "Interstellar",
+        "missionStatus": {
+            "current": 2,
+            "past": 0
+        },
+        "image": "/images/Interstellar.webp"
+    }
+   
+]

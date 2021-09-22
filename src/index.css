@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p.label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #e73b54;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.text-body-md {
+  color: rgb(251, 251, 251);
+  grid-column-end: 6;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+.missions {
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  left: 23%;
+  top: 8%;
+}
+
+h2 {
+  
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+  line-height: 2rem;
+  margin: 0 0 20px;
+  color: rgb(251, 251, 251);
+}
+
+.planet-text {
+  position: absolute;
+  left: 145px;
+  top: 430px;
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0 solid;
+  border-image: linear-gradient(
+0deg
+,#6f6f6f,transparent) 1 20%;
+}
+
+.p1 {
+  font-size: 1.25em;
+  color: #fff;
+  margin: 0;
+}
+
+.p2 {
+  color: #d8d8d8;
+  margin-bottom: px;
+  font-size: 1.35rem;
+  font-weight: 1;
+  margin: 0;
+}
+
+.p3 {
+  color: #d8d8d8;
+  font-size: 1.35rem;
+  font-weight: 1;
+  margin: 0;
+}
+
+.explore {
+  color: #e73b54;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #e73b54;
+  border: none;
+}
+
+button:hover {
+  background: rgb(29, 177, 9);
+}
+
+button svg {
+  width: 12px;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  margin-top: -25px;
+  color: #fff;
+}
+
+.right-button {
+  left: auto;
+  right: 10%;
 }
